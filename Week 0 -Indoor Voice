@@ -1,0 +1,7 @@
+print("HEY LETS TALK IN A OUTDOOR VOICE!")
+user_text = input("WHATS UP?: ")
+print(user_text.lower())
+
+print("hey lets talk in a indoor voice... ")
+user_text = input("whats up?: ")
+print(user_text.upper())
