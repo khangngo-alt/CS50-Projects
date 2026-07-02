@@ -1,0 +1,7 @@
+convert = input("Enter a emoticon :) or :(  ")
+if convert == ":)":
+    print("Hello 🙂")
+elif convert == ":(":
+    print("Goodbye ☹️")
+else:
+    print("Invalid emoticon")
