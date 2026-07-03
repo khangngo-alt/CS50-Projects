@@ -1,0 +1,17 @@
+expression = input("Expression (x y z): ")
+x, y, z = expression.split(" ")
+new_x = float(x)
+new_z = float(z)
+x = new_x
+z = new_z
+
+if y == "+":
+    print(round(x + z, 2))
+elif y == "-":
+    print(round(x - z, 2))
+elif y == "/":
+    print(round(x / z, 2))
+elif y == "*":
+    print(round(x * z, 2))
+else:
+    print("I'm not familar with that expression" )
