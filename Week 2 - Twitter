@@ -1,0 +1,8 @@
+input_ = input("Input: ")
+output = ""
+
+for vowels in input_:
+    if vowels.lower() not in ["a", "e", "o", "u", "i"]:
+        output += vowels
+
+print(f"Output: {output}")
