@@ -1,0 +1,16 @@
+due = 50
+
+while True:
+    due_ = print(f"Amount Due: {due}")
+    insert = int(input("Insert coin: "))
+   
+    if insert == 1 or insert == 5 or insert == 10 or insert == 25 or insert == 50:
+        due = due - insert
+    else:
+        continue
+    if due <= 0:
+        break
+
+due = abs(due)
+print(f"Amount Owded: {due}")
+print("Dispensing, wait one moment")
